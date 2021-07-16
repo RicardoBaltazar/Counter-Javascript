@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  // --background: #2ca6a4;
+  --background: #0070D6;
+  --contrast: #48A524;
+  --tertiary: #961ED9;
+
+}
+
 @media(max-width: 1080px) {
   html {
     font-size: 93.75%;
@@ -18,6 +28,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: var(--white);
 }
 
 a {

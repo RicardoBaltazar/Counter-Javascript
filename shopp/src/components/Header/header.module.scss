@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background);
+    color: var(--white);
+    height: 130px;
+    padding: 0 2rem;
+
+    .navbar {
+
+        .ul {
+            display: flex;
+            align-items: center;
+
+            li {
+                list-style-type: none;
+                margin-left: 1.5rem;
+            }
+        }
+    }
+}
