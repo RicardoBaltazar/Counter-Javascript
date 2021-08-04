@@ -2,7 +2,10 @@ import Styled from './inputSearch.module.scss'
 
 const InputSearch = () => {
     return (
-        <input type="text" placeholder="Procure por Produto, Nome..." className={Styled.input}/>
+        <form className={Styled.form}>
+            <input type="text" placeholder="Procure por Produto, Nome..." className={Styled.input}/>
+            <button type="submit" className={Styled.btn}>Pesquisar</button>
+        </form>
     )
 }
 

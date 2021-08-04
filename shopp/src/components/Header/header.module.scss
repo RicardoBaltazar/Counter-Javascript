@@ -1,22 +1,50 @@
-.header {
+.header{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
     background-color: var(--background);
-    color: var(--white);
-    height: 130px;
     padding: 0 2rem;
 
-    .navbar {
-
-        .ul {
+    .headerTop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: var(--white);
+        height: 100px;
+    
+        .navbar {
             display: flex;
             align-items: center;
-
-            li {
-                list-style-type: none;
-                margin-left: 1.5rem;
+    
+            .menuLogin {
+                display: flex;
+                flex-direction: column;
+                font-size: 0.7rem;
+                span {
+                    font-weight: bold;
+                }
+                a {
+                    transition: 0.2s;
+                    &:hover{
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+                }
+            }
+    
+            .ul {
+                display: flex;
+                align-items: center;
+    
+                li {
+                    list-style-type: none;
+                    margin-left: 1.5rem;
+                }
             }
         }
+    }
+
+    .separationLine {
+        height: 0.3rem;
+        background-image: linear-gradient(to right, var(--contrast), #FBF805, var(--tertiary));
     }
 }
