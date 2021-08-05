@@ -4,7 +4,7 @@
 
 Aplicação front end de loja virtual fictícia para fins de estudo. Criado com o objetivo de me aprofundar nos estudos da bibliotec ReactJS. Nesse projeto tento recriar funcionalidades e design de outras lojas virtuais. O projeto esta em desenvolvimento...  
 
-visualize como o projeto esta atualmente nesse link: https://shopp-blush.vercel.app/  
+visualize como o projeto esta atualmente nesse link: [Shopp Front end](https://shopp-blush.vercel.app/)   
 
 ## ✨ Tecnologias
 
